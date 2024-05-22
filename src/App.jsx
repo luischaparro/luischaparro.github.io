@@ -1,4 +1,6 @@
+import {BrowserRouter as Router, Routes} from "react-router-dom"
 import NavBar from "./components/NavBar.jsx"
+import Inicio from "./Screen/Inicio.jsx"
 import Blog from "./components/Blogs.jsx"
 import Container from "./components/Container.jsx"
 import FooterVlog from "./components/FooterVlog.jsx"
@@ -10,11 +12,12 @@ export default function App() {
     <>
       <div className="bg-slate-800 min-h-screen">
         <NavBar/>
-        <Container>
+        <Inicio/>
+        {/* <Container>
           <Blog/>
           <Blog/>
           <Blog/>
-        </Container>
+        </Container> */}
         <FooterVlog>
           <Categorie/>
           <Categorie/>
