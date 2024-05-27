@@ -16,6 +16,7 @@ const NavBar = () => {
               <Link to="/paginaestatica" className={hovColBtnLink}>Inicio</Link>
               <Link to="/paginaestatica/blog" className={hovColBtnLink}>Blog</Link>
               <Link to="/paginaestatica/nosotros" className={hovColBtnLink}>Sobre Nosotros</Link>
+              <Link to="/paginaestatica/documentacion" className={hovColBtnLink}>Documentacion</Link>
               <Link to="/paginaestatica/contacto" className={hovColBtnLink}>Contacto</Link>
             </nav>
             <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 text-black">Iniciar
