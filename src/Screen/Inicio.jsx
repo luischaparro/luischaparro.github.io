@@ -1,8 +1,8 @@
-import React from 'react'
 import logo from "./Assets/logo.png"
 
 const Inicio = () => {
   return (
+
     <div className=''>
       <main className="bg-[linear-gradient(to_right_bottom,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./src/Screen/Assets/fondo_inicio.jpg')] flex w-full h-screen justify-around items-center">
         <p className="w-1/4 h-1/4 text-[#f8f4e1] font-extrabold">
@@ -11,9 +11,10 @@ const Inicio = () => {
           municipio. Es una visita obligada para cualquier persona que esté
           interesada en conocer más sobre el pasado de Colombia.
         </p>
-
+    
         <img
-          className="w-1/4 h-2/4 rounded-full"
+          className="w-[200px] h-[200px] rounded-full
+          md:w-[300px] md:h-[300px]"
           src={logo}
           alt="Logo del centro de historia de Pinchote."
         />
