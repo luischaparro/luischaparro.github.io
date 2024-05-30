@@ -1,13 +1,15 @@
-import logo from "./Assets/logo.png";
+import logo from "../Assets/logo-icon.png";
 import alvaro_sarmiento from "./Assets/alvaro sarmiendo.jpg";
 import firma_pedro_santos from "./Assets/firma Pedro de los Santos Meneses.jpg";
 
 
 const Inicio = () => {
   return (
-    <div className="">
-      <main className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.7),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo_inicio.jpg')] flex w-full h-screen justify-around items-center">
-        <p className="w-1/4 h-1/4 text-[#f8f4e1] font-extrabold ">
+    <div className="text-center text-sm font-semibold">
+      <main className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.7),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo_inicio.jpg')] 
+      flex flex-wrap w-full h-screen justify-around items-center
+      md:flex-nowrap">
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
           El Centro de Historia de Pinchote Álvaro Sarmiento Santander es un
           lugar ideal para aprender sobre la rica historia y cultura del
           municipio. Es una visita obligada para cualquier persona que esté
@@ -15,7 +17,7 @@ const Inicio = () => {
         </p>
 
         <img
-          className="w-[200px] h-[200px] rounded-full
+          className="w-[200px] h-[200px]
           md:w-[300px] md:h-[300px]"
           src={logo}
           alt="Logo del centro de historia de Pinchote."
@@ -23,16 +25,19 @@ const Inicio = () => {
       </main>
 
       <section
-        className="bg-center bg-no-repeat bg-cover bg-fixed w-full h-screen flex 
-      justify-around items-center bg-[linear-gradient(to_bottom,rgba(0,200,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]"
-      >
+        className="bg-center bg-no-repeat bg-cover bg-fixed 
+        w-full h-screen flex justify-around items-center
+        flex flex-wrap-reverse
+        bg-[linear-gradient(to_bottom,rgba(0,200,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]
+        ">
+
         <img
-          className="w-[200px] h-[325px] 
-      md:w-[300px] md:h-[425px] rounded" /*Aumentar un poquito el redondeo de bordes*/
+          className="w-[120px] h-[165px] 
+          md:w-[300px] md:h-[425px] rounded" /*Aumentar un poquito el redondeo de bordes*/
           src={alvaro_sarmiento}
           alt="Logo del centro de historia de Pinchote."
         />
-        <p className="w-2/4 h-1/4 text-[#f8f4e1] font-extrabold">
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
           Álvaro Sarmiento Santander, nacido en 1944 en Charalá-Santander, fue
           abogado con un postgrado en Derecho Laboral y Seguridad Social de la
           Universidad Externado de Colombia. Ejerció como juez y funcionario
@@ -50,10 +55,12 @@ const Inicio = () => {
       </section>
 
       <section
-        className="bg-center bg-no-repeat bg-cover bg-fixed w-full h-screen flex 
-      justify-around items-center bg-[linear-gradient(to_bottom_right,rgba(139,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]"
+        className="bg-center bg-no-repeat bg-cover bg-fixed 
+        w-full h-screen flex flex-wrap justify-around items-center 
+        md:flex-nowrap
+        bg-[linear-gradient(to_bottom_right,rgba(139,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]"
       >
-        <p className="w-1/4 h-1/4 text-[#f8f4e1] font-extrabold">
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
           El Centro de Historia “Álvaro Sarmiento Santander” se vincula a la
           conmemoración de los 241 años de la firma de la erección de la
           vice-parroquia de Pinchote, dando a conocer la firma y rúbrica de uno
@@ -63,8 +70,8 @@ const Inicio = () => {
         </p>
 
         <img
-          className="w-[200px] h-[325px] 
-      md:w-[800px] md:h-[360px] rounded"
+          className="w-[350px] h-[200px] 
+      md:w-[500px] md:h-[260px] rounded"
           src={firma_pedro_santos}
           alt="Logo del centro de historia de Pinchote."
         />
