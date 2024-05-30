@@ -1,6 +1,7 @@
 import { Link, Outlet } from "react-router-dom"
 import FooterVlog from "./FooterVlog"
 import Categorie from "./Categorie"
+import logo from "../../public/logo-icon.png"
 
 const NavBar = () => {
   const hovColBtnLink = "mr-5 hover:text-amber-600 cursor-pointer"
@@ -9,8 +10,8 @@ const NavBar = () => {
         <header className="text-white body-font bg-slate-800">
           <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a className="flex title-font font-medium items-center text-green-400 mb-4 md:mb-0">
-            <img className="max-w-10 rounded-full" src="https://scontent.fbga1-4.fna.fbcdn.net/v/t39.30808-6/302011729_106309328877032_6858142748722646921_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHo8qj5nWjMVJb6RvkvUT-wgPgdeXmHl02A-B15eYeXTY7ljh1RsEGFUSruIZS8yFxUg4GuNxFr8JLcY9IdwEHa&_nc_ohc=oL5vfGiSPecQ7kNvgEPK7KZ&_nc_ht=scontent.fbga1-4.fna&oh=00_AYDvCeteYOXNF58wEjWmbGB4JvUnscawlRi0Aq4FehF1Tg&oe=6650AD09" alt="" />
-              <span className="ml-3 text-xl">Centro Historico De Pinchote</span>
+            <img className="max-w-10 rounded-full" src={logo} alt="Centro Historico De Pinchote logo" />
+              <span className="ml-3 text-xl text-rose-50">Centro Historico De Pinchote</span>
             </a>
             <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
               <Link to="/paginaestatica" className={hovColBtnLink}>Inicio</Link>
