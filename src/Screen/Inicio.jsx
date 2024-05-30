@@ -2,14 +2,15 @@ import logo from "../Assets/logo-icon.png";
 import alvaro_sarmiento from "./Assets/alvaro sarmiendo.jpg";
 import firma_pedro_santos from "./Assets/firma Pedro de los Santos Meneses.jpg";
 
-
 const Inicio = () => {
   return (
     <div className="text-center text-sm font-semibold">
-      <main className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.7),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo_inicio.jpg')] 
+      <main
+        className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo_inicio.jpg')] 
       flex flex-wrap w-full h-screen justify-around items-center
-      md:flex-nowrap">
-        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
+      md:flex-nowrap bg-fixed"
+      >
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base rounded">
           El Centro de Historia de Pinchote Álvaro Sarmiento Santander es un
           lugar ideal para aprender sobre la rica historia y cultura del
           municipio. Es una visita obligada para cualquier persona que esté
@@ -17,8 +18,8 @@ const Inicio = () => {
         </p>
 
         <img
-          className="w-[200px] h-[200px]
-          md:w-[300px] md:h-[300px]"
+          className="w-[300px] h-[300px]
+          md:w-[300px] md:h-[300px] duration-150 hover:scale-125"
           src={logo}
           alt="Logo del centro de historia de Pinchote."
         />
@@ -26,14 +27,14 @@ const Inicio = () => {
 
       <section
         className="bg-center bg-no-repeat bg-cover bg-fixed 
-        w-full h-screen flex justify-around items-center
+        w-full h-screen justify-around items-center
         flex flex-wrap-reverse
-        bg-[linear-gradient(to_bottom,rgba(0,200,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]
-        ">
-
+        bg-[linear-gradient(to_bottom,rgba(0,200,0,0.3),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]
+        "
+      >
         <img
           className="w-[120px] h-[165px] 
-          md:w-[300px] md:h-[425px] rounded" /*Aumentar un poquito el redondeo de bordes*/
+          md:w-[300px] md:h-[425px] rounded duration-150 hover:scale-125"
           src={alvaro_sarmiento}
           alt="Logo del centro de historia de Pinchote."
         />
@@ -71,7 +72,7 @@ const Inicio = () => {
 
         <img
           className="w-[350px] h-[200px] 
-      md:w-[500px] md:h-[260px] rounded"
+      md:w-[500px] md:h-[260px] rounded duration-150 hover:scale-125"
           src={firma_pedro_santos}
           alt="Logo del centro de historia de Pinchote."
         />
