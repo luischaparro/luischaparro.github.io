@@ -10,9 +10,7 @@ const Inicio = () => {
       flex flex-wrap w-full h-screen justify-around items-center
       md:flex-nowrap bg-fixed"
       >
-
-
-<p className="text-[#f8f4e1] md:max-w-md md:text-base">
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
           El Centro de Historia “Álvaro Sarmiento Santander” se vincula a la
           conmemoración de los 241 años de la firma de la erección de la
           vice-parroquia de Pinchote, dando a conocer la firma y rúbrica de uno
