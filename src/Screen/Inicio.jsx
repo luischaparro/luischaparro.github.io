@@ -6,21 +6,25 @@ const Inicio = () => {
   return (
     <div className="text-center text-sm font-semibold bg-slate-800">
       <main
-        className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/alternativa.jpg')] bg-cover 
+        className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/section3.JPG')] bg-cover 
       flex flex-wrap w-full h-screen justify-around items-center
       md:flex-nowrap bg-fixed"
       >
-        <p className="text-[#f8f4e1] md:max-w-md md:text-base rounded">
-          El Centro de Historia de Pinchote Álvaro Sarmiento Santander es un
-          lugar ideal para aprender sobre la rica historia y cultura del
-          municipio. Es una visita obligada para cualquier persona que esté
-          interesada en conocer más sobre el pasado de Colombia.
+
+
+<p className="text-[#f8f4e1] md:max-w-md md:text-base">
+          El Centro de Historia “Álvaro Sarmiento Santander” se vincula a la
+          conmemoración de los 241 años de la firma de la erección de la
+          vice-parroquia de Pinchote, dando a conocer la firma y rúbrica de uno
+          de sus más ilustres personajes, “Pedro de los Santos Meneses”, que,
+          gracias a su motivación, decisión y gestión, logró que este hermoso
+          terruño paradisíaco, existiera.
         </p>
 
         <img
-          className="w-[300px] h-[300px]
-          md:w-[300px] md:h-[300px] duration-150 hover:scale-125"
-          src={logo}
+          className="w-[350px] h-[200px] 
+      md:w-[500px] md:h-[260px] rounded duration-150 hover:scale-125"
+          src={firma_pedro_santos}
           alt="Logo del centro de historia de Pinchote."
         />
       </main>
@@ -29,7 +33,7 @@ const Inicio = () => {
         className="bg-center bg-no-repeat bg-cover bg-fixed 
         w-full h-screen justify-around items-center
         flex flex-wrap-reverse
-        bg-[linear-gradient(to_bottom,rgba(0,200,0,0.3),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]
+        bg-[linear-gradient(to_bottom,rgba(0,200,0,0.3),rgba(0,0,0,0.5)),url('/src/Screen/Assets/section2.JPG')]
         "
       >
         <img
@@ -60,21 +64,19 @@ const Inicio = () => {
         w-full h-screen flex flex-wrap justify-around items-center 
         md:flex-nowrap
         clip-path-style
-        bg-[linear-gradient(to_bottom_right,rgba(139,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]"
+        bg-[linear-gradient(to_bottom_right,rgba(139,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/section1.JPG')]"
       >
-        <p className="text-[#f8f4e1] md:max-w-md md:text-base">
-          El Centro de Historia “Álvaro Sarmiento Santander” se vincula a la
-          conmemoración de los 241 años de la firma de la erección de la
-          vice-parroquia de Pinchote, dando a conocer la firma y rúbrica de uno
-          de sus más ilustres personajes, “Pedro de los Santos Meneses”, que,
-          gracias a su motivación, decisión y gestión, logró que este hermoso
-          terruño paradisíaco, existiera.
+        <p className="text-[#f8f4e1] md:max-w-md md:text-base rounded">
+          El Centro de Historia de Pinchote Álvaro Sarmiento Santander es un
+          lugar ideal para aprender sobre la rica historia y cultura del
+          municipio. Es una visita obligada para cualquier persona que esté
+          interesada en conocer más sobre el pasado de Colombia.
         </p>
 
         <img
-          className="w-[350px] h-[200px] 
-      md:w-[500px] md:h-[260px] rounded duration-150 hover:scale-125"
-          src={firma_pedro_santos}
+          className="w-[300px] h-[300px]
+          md:w-[300px] md:h-[300px] duration-150 hover:scale-125"
+          src={logo}
           alt="Logo del centro de historia de Pinchote."
         />
       </section>
