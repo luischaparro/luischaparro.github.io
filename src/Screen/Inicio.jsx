@@ -6,7 +6,7 @@ const Inicio = () => {
   return (
     <div className="text-center text-sm font-semibold">
       <main
-        className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo_inicio.jpg')] 
+        className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/alternativa.jpg')] bg-cover 
       flex flex-wrap w-full h-screen justify-around items-center
       md:flex-nowrap bg-fixed"
       >
