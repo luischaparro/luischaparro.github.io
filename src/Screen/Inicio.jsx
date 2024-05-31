@@ -4,7 +4,7 @@ import firma_pedro_santos from "./Assets/firma Pedro de los Santos Meneses.jpg";
 
 const Inicio = () => {
   return (
-    <div className="text-center text-sm font-semibold">
+    <div className="text-center text-sm font-semibold bg-slate-800">
       <main
         className="bg-[linear-gradient(to_bottom,rgba(255,255,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/alternativa.jpg')] bg-cover 
       flex flex-wrap w-full h-screen justify-around items-center
@@ -59,6 +59,7 @@ const Inicio = () => {
         className="bg-center bg-no-repeat bg-cover bg-fixed 
         w-full h-screen flex flex-wrap justify-around items-center 
         md:flex-nowrap
+        clip-path-style
         bg-[linear-gradient(to_bottom_right,rgba(139,0,0,0.5),rgba(0,0,0,0.5)),url('/src/Screen/Assets/fondo2.jpg')]"
       >
         <p className="text-[#f8f4e1] md:max-w-md md:text-base">

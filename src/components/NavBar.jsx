@@ -20,7 +20,7 @@ const NavBar = () => {
               Centro Historico De Pinchote
             </span>
           </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
+          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center nav">
             <Link to="/paginaestatica" className={hovColBtnLink}>
               Inicio
             </Link>

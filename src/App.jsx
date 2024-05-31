@@ -5,6 +5,7 @@ import Blog from "./Screen/Blog.jsx"
 import Nosotros from "./Screen/Nosotros.jsx"
 import Documentacion from "./Screen/Documentacion.jsx"
 import Contacto from "./Screen/Contacto.jsx"
+import "./Assets/Botones.css"
 
 export default function App() {
   return (
