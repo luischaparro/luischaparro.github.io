@@ -23,7 +23,7 @@ const Inicio = () => {
           className="w-[350px] h-[200px] 
       md:w-[500px] md:h-[260px] rounded duration-150 hover:scale-125"
           src={firma_pedro_santos}
-          alt="Logo del centro de historia de Pinchote."
+          alt="firma de Pedro de los Santos Meneses"
         />
       </main>
 
@@ -38,7 +38,7 @@ const Inicio = () => {
           className="w-[120px] h-[165px] 
           md:w-[300px] md:h-[425px] rounded duration-150 hover:scale-125"
           src={alvaro_sarmiento}
-          alt="Logo del centro de historia de Pinchote."
+          alt="Cuadro de Álvaro Sarmiento Santander"
         />
         <p className="text-[#f8f4e1] md:max-w-md md:text-base">
           Álvaro Sarmiento Santander, nacido en 1944 en Charalá-Santander, fue
