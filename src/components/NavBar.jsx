@@ -21,19 +21,19 @@ const NavBar = () => {
             </span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center nav">
-            <Link to="/paginaestatica/" className={hovColBtnLink}>
+            <Link to="" className={hovColBtnLink}>
               Inicio
             </Link>
-            <Link to="/paginaestatica/blog" className={hovColBtnLink}>
+            <Link to="/blog" className={hovColBtnLink}>
               Blog
             </Link>
-            <Link to="/paginaestatica/nosotros" className={hovColBtnLink}>
+            <Link to="/nosotros" className={hovColBtnLink}>
               Sobre Nosotros
             </Link>
-            <Link to="/paginaestatica/documentacion" className={hovColBtnLink}>
+            <Link to="/documentacion" className={hovColBtnLink}>
               Documentación
             </Link>
-            <Link to="/paginaestatica/contacto" className={hovColBtnLink}>
+            <Link to="/contacto" className={hovColBtnLink}>
               Contacto
             </Link>
           </nav>
