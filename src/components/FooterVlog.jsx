@@ -17,7 +17,7 @@ const FooterVlog = (props) => {
               </span>
             </a>
             <p class="mt-2 text-sm ">
-              Página oficial del centro histórico de pinchote <strong>(en construcción)</strong>.
+              Página oficial del centro histórico de pinchote.
             </p>
           </div>
           <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
