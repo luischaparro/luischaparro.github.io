@@ -11,8 +11,8 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route path="/paginaestatica" element={<NavBar/>}>
-          <Route path="/paginaestatica/" element={<Inicio/>}/>
+        <Route exact path="/" element={<NavBar/>}>
+          <Route exact path="/" element={<Inicio/>}/>
           <Route path="/paginaestatica/blog" element={<Blog/>}/>
           <Route path="/paginaestatica/nosotros" element={<Nosotros/>}/>
           <Route path="/paginaestatica/documentacion" element={<Documentacion/>}/>
