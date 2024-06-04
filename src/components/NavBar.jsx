@@ -5,11 +5,11 @@ import logo from "../Assets/logo-icon.png";
 
 const NavBar = () => {
   const hovColBtnLink =
-    "mr-5 hover:text-amber-600 cursor-pointer ease-linear duration-300";
+    "hover:text-amber-600 cursor-pointer ease-linear duration-300";
   return (
     <>
-      <header className="text-white body-font bg-slate-800">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <header className="text-white body-font bg-slate-800 px-4">
+        <div className="mx-auto flex flex-wrap py-5 md:px-16 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-green-400 mb-4 md:mb-0">
             <img
               className="max-w-10 rounded-full"
@@ -21,19 +21,19 @@ const NavBar = () => {
             </span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center nav">
-            <Link to="/paginaestatica" className={hovColBtnLink}>
+            <Link to="" className={hovColBtnLink}>
               Inicio
             </Link>
-            <Link to="/paginaestatica/blog" className={hovColBtnLink}>
+            <Link to="/blog" className={hovColBtnLink}>
               Blog
             </Link>
-            <Link to="/paginaestatica/nosotros" className={hovColBtnLink}>
+            <Link to="/nosotros" className={hovColBtnLink}>
               Sobre Nosotros
             </Link>
-            <Link to="/paginaestatica/documentacion" className={hovColBtnLink}>
+            <Link to="/documentacion" className={hovColBtnLink}>
               Documentación
             </Link>
-            <Link to="/paginaestatica/contacto" className={hovColBtnLink}>
+            <Link to="/contacto" className={hovColBtnLink}>
               Contacto
             </Link>
           </nav>

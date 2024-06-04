@@ -1,22 +1,22 @@
 import { useState } from "react";
-import Acta01 from "../Assets/Acta001-ActaDeConstitución.pdf";
-import CHP from "../Assets/CumplimientoDeRequisitosCHP.pdf";
-import DeclaracionRenta2024 from "../Assets/DECLARACIONRENTA2024.pdf";
-import EstadoFinanciero2023 from "../Assets/ESTADOSFINANCIEROS2023.pdf";
-import ProyectosCursoFinalizados from "../Assets/ProyectosEnCursoYFinalizados.pdf";
+import Acta01 from "../Assets/PDF/Acta001-ActaDeConstitución.pdf";
+import CHP from "../Assets/PDF/CumplimientoDeRequisitosCHP.pdf";
+import DeclaracionRenta2024 from "../Assets/PDF/DECLARACIONRENTA2024.pdf";
+import EstadoFinanciero2023 from "../Assets/PDF/ESTADOSFINANCIEROS2023.pdf";
+import ProyectosCursoFinalizados from "../Assets/PDF/ProyectosEnCursoYFinalizados.pdf";
 
 const Documentacion = () => {
   let images = {
     default: "bg-[#f5f6fa]",
     acta01:
-      "bg-[url('/src/Screen/Assets/docs_imgs/Acta001-ActaDeConstitución.jpg')]",
-    chp: "bg-[url('/src/Screen/Assets/docs_imgs/CumplimientoDeRequisitosCHP.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/Acta001-ActaDeConstitución.jpg')]",
+    chp: "bg-[url('/src/Assets/docs_imgs/CumplimientoDeRequisitosCHP.jpg')]",
     DeclaracionRenta2024:
-      "bg-[url('/src/Screen/Assets/docs_imgs/DECLARACIONRENTA2024.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/DECLARACIONRENTA2024.jpg')]",
     EstadoFinanciero2023:
-      "bg-[url('/src/Screen/Assets/docs_imgs/ESTADOSFINANCIEROS2023.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/ESTADOSFINANCIEROS2023.jpg')]",
     ProyectosCursoFinalizados:
-      "bg-[url('/src/Screen/Assets/docs_imgs/ProyectosEnCursoYFinalizados.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/ProyectosEnCursoYFinalizados.jpg')]",
   };
   let [docBg, setdocBg] = useState(images.default);
   return (
