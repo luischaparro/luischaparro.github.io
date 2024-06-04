@@ -1,4 +1,4 @@
-import logo from "../Assets/logo-icon.png";
+import logo from "../Assets/logo-icon.avif";
 import alvaro_sarmiento from "../Assets/ImagenesAVIF/alvaro-sarmiendo.avif";
 import firma_pedro_santos from "../Assets/ImagenesAVIF/firma-Pedro-de-los-Santos-Meneses.avif";
 
@@ -74,7 +74,7 @@ const Inicio = () => {
 
         <img
           className="w-[300px] h-[300px]
-          md:w-[300px] md:h-[300px] duration-150 hover:scale-125"
+          md:w-[300px] md:h-[300px] duration-150 hover:scale-125 rounded-full"
           src={logo}
           alt="Logo del centro de historia de Pinchote."
         />

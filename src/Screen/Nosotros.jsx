@@ -2,7 +2,7 @@ const Nosotros = () => {
   return (
     <section
       className="bg-center bg-no-repeat bg-cover bg-fixed w-full h-screen flex flex-col
-      justify-around items-center bg-[url('/src/Screen/Assets/section4.JPG')]"
+      justify-around items-center bg-[url('/src/Assets/ImagenesAVIF/section4.avif')]"
     >
       <h1 className="text-5xl font-extrabold dark:text-white">Misión</h1>
       <p

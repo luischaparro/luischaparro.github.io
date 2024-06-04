@@ -9,14 +9,14 @@ const Documentacion = () => {
   let images = {
     default: "bg-[#f5f6fa]",
     acta01:
-      "bg-[url('/src/Assets/docs_imgs/Acta001-ActaDeConstitución.jpg')]",
-    chp: "bg-[url('/src/Assets/docs_imgs/CumplimientoDeRequisitosCHP.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/Acta001-ActaDeConstitución.avif')]",
+    chp: "bg-[url('/src/Assets/docs_imgs/CumplimientoDeRequisitosCHP.avif')]",
     DeclaracionRenta2024:
-      "bg-[url('/src/Assets/docs_imgs/DECLARACIONRENTA2024.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/DECLARACIONRENTA2024.avif')]",
     EstadoFinanciero2023:
-      "bg-[url('/src/Assets/docs_imgs/ESTADOSFINANCIEROS2023.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/ESTADOSFINANCIEROS2023.avif')]",
     ProyectosCursoFinalizados:
-      "bg-[url('/src/Assets/docs_imgs/ProyectosEnCursoYFinalizados.jpg')]",
+      "bg-[url('/src/Assets/docs_imgs/ProyectosEnCursoYFinalizados.avif')]",
   };
   let [docBg, setdocBg] = useState(images.default);
   return (

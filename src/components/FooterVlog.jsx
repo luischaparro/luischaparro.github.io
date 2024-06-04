@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/logo-icon.png";
+import logo from "../Assets/logo-icon.avif";
 const FooterVlog = (props) => {
   return (
     <>

@@ -1,7 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
 import FooterVlog from "./FooterVlog";
 import Categorie from "./Categorie";
-import logo from "../Assets/logo-icon.png";
+import logo from "../Assets/logo-icon.avif";
 
 const NavBar = () => {
   const hovColBtnLink =
