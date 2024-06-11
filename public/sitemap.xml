@@ -6,7 +6,7 @@
     <changefreq>never</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
+  <!-- <url>
     <loc>https://centrohistoricodepinchote.github.io/blog</loc>
     <lastmod>2024-06-03</lastmod>
     <changefreq>never</changefreq>
@@ -29,5 +29,5 @@
     <lastmod>2024-06-03</lastmod>
     <changefreq>never</changefreq>
     <priority>0.5</priority>
-  </url>
+  </url> -->
 </urlset>
