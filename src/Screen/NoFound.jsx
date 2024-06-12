@@ -1,5 +1,3 @@
-
-
 const NoFound = () => {
   return (
     <div>
@@ -8,4 +6,4 @@ const NoFound = () => {
   )
 }
 
-export default NoFound
+export { NoFound };

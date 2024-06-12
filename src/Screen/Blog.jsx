@@ -1,16 +1,19 @@
-import Blogs from "../components/Blogs.jsx";
-import Container from "../components/Container.jsx";
-import datos from "../Assets/datos.json";
-// imagen temporal
-import img from "../Assets/img.js";
 import { useEffect, useState } from "react";
 
-const api = "https://chpapi.vercel.app/blog";
-const imgSrc = `data:image/jpeg;base64,${img}`;
+import { Container } from "../components/Container.jsx";
+import { Blogs } from "../components/Blogs.jsx";
+import { BlogsLoading } from "../components/BlogsLoading.jsx";
+
 
 const Blog = () => {
+
+  const [loading, setLoading] = useState(true);
+
+  const api = "https://chpapi.vercel.app/blog";
+
   // Estado que guarde los blogs
-  let [data, setData] = useState([]);
+  const [data, setData] = useState([]);
+
   // Fecth a la API de los blog
   useEffect(() => {
     console.log("Haciendo fetch");
@@ -18,15 +21,25 @@ const Blog = () => {
       .then((res) => res.json())
       .then((res) => {
         // Cambiando el estado
-        console.log(res);
         setData(res);
+        setLoading(false)
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        setLoading(false);
+      });
   }, []);
 
   return (
     <>
       <Container>
+        {loading && (
+          <>
+            <BlogsLoading/>
+            <BlogsLoading/>
+            <BlogsLoading/>
+          </>
+        )}
         {data.map((dato) => (
           <Blogs
             imagen={`data:image/jpeg;base64,${dato.img}`}
@@ -40,4 +53,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export { Blog };

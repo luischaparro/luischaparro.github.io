@@ -83,4 +83,4 @@ const Inicio = () => {
   );
 };
 
-export default Inicio;
+export { Inicio };

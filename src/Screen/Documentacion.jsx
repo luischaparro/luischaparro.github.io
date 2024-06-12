@@ -109,4 +109,4 @@ const Documentacion = () => {
   );
 };
 
-export default Documentacion;
+export { Documentacion };
