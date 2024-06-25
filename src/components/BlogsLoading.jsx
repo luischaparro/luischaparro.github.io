@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const BlogsLoading = () => {
     return (
@@ -9,8 +9,6 @@ const BlogsLoading = () => {
                 >
                     <div className='lg:h-48 md:h-36 w-full object-cover object-center'></div>
                     <div className="p-6 w-full h-[300px] "></div>
-
-
                 </div>
             </div>
         </>

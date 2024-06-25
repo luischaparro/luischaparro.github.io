@@ -10,14 +10,14 @@ const FooterVlog = (props) => {
               <img
                 className="max-w-10 rounded-full"
                 src={logo}
-                alt="logo del centro historico de pinchote"
+                alt="logo del Centro De Historia de pinchote"
               />
               <span className="ml-3 text-green-500">
-                Fundación Centro Histórico De Pinchote
+                Fundación Centro De Historia De Pinchote
               </span>
             </a>
             <p className="mt-2 text-sm ">
-              Página oficial del centro histórico de pinchote.
+              Página oficial del Centro De Historia de pinchote.
             </p>
           </div>
           <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
@@ -27,7 +27,7 @@ const FooterVlog = (props) => {
         <div className="bg-gray-100">
           <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2024 Fundación Centro Histórico de Pinchote —
+              © 2024 Fundación Centro De Historia de Pinchote —
               <a
                 href="#"
                 rel="noopener noreferrer"

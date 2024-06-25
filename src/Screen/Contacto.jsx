@@ -48,7 +48,7 @@ const Contacto = () => {
               Button
             </button>
             <p class="text-xs text-gray-500 mt-3">
-              Agradecemos su retroalimentación - Fundación Centro histórico de
+              Agradecemos su retroalimentación - Fundación Centro De Historia de
               Pinchote.
             </p>
           </div>

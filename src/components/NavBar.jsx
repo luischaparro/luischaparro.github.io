@@ -14,10 +14,10 @@ const NavBar = () => {
             <img
               className="max-w-10 rounded-full"
               src={logo}
-              alt="Centro Historico De Pinchote logo"
+              alt="Centro De Historia De Pinchote logo"
             />
             <span className="ml-3 text-xl text-rose-50">
-              Centro Historico De Pinchote
+              Centro De Historia De Pinchote
             </span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center nav">
@@ -46,12 +46,12 @@ const NavBar = () => {
         <Categorie
           categorie="Horario de atención"
           text="8:00 am a 5:00 pm"
-          link="/paginaestatica/nosotros"
+          link="#/nosotros"
         />
         <Categorie
           categorie="Enlaces a documentación"
-          text="Documentos generados por el Centro Histórico de Pinchote"
-          link='/paginaestatica/documentacion'
+          text="Documentos generados por el Centro De Historia de Pinchote"
+          link='#/documentacion'
         />
       </FooterVlog>
     </>
