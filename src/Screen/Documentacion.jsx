@@ -8,7 +8,7 @@ import doc_7 from "../Assets/PDF/7. Certificado de no inhabilidades 15 de abril 
 import doc_8 from "../Assets/PDF/8. ACTA 2 RENOVACION DIRECTIVOS Y ESTATUTOS DEFINITIVOS 7 de junio 2024.pdf";
 import doc_9 from "../Assets/PDF/9. ESTATUTOS ACTUALIZADOS.pdf";
 import doc_10 from "../Assets/PDF/10. CERT CAMARA COMERCIO EXISTENCIA Y REPRESENTACION LEGAL 17 de junio 2024.pdf"
-import doc_11 from "../Assets/PDF/11. DECLARACION RENTA 2024 FUNDACION CENTRO DE HISTORIA DE PINCHOTE.pdf"
+import doc_11 from "../Assets/PDF/11. FORMATO 52451002361684.pdf"
  
 const docs = [
   doc_1,
