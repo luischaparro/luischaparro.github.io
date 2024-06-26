@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Children } from 'react'
 
 const Categorie = (props) => {
   const hovColBtnLink = "text-white hover:text-amber-600 cursor-pointer"
