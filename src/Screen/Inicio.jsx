@@ -25,7 +25,7 @@ const Inicio = () => {
           El “sitio de Pinchote” fue erigido como vice-parroquia, en el año de
           1782, gracias a la motivación, decisión y gestión de dos de sus más
           ilustres representantes Pedro de los Santos Meneses y Antonio José
-          Villamil. Esto va en la primera franja.
+          Villamil.
         </motion.p>
 
         <img
