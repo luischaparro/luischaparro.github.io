@@ -6,8 +6,10 @@ import doc_5 from "../Assets/PDF/5. ACTA 2 DE ASAMBLE GENERAL 23 marzo 2024.pdf"
 import doc_6 from "../Assets/PDF/6. Cumplimiento de requisitos CHP 15 de abril de 2024.pdf";
 import doc_7 from "../Assets/PDF/7. Certificado de no inhabilidades 15 de abril 2024.pdf";
 import doc_8 from "../Assets/PDF/8. ACTA 2 RENOVACION DIRECTIVOS Y ESTATUTOS DEFINITIVOS 7 de junio 2024.pdf";
-import doc_9 from "../Assets/PDF/9. CERT CAMARA COMERCIO EXISTENCIA Y REPRESENTACION LEGAL 17 de junio 2024.pdf";
-
+import doc_9 from "../Assets/PDF/9. ESTATUTOS ACTUALIZADOS.pdf";
+import doc_10 from "../Assets/PDF/10. CERT CAMARA COMERCIO EXISTENCIA Y REPRESENTACION LEGAL 17 de junio 2024.pdf"
+import doc_11 from "../Assets/PDF/11. FORMATO 52451002361684.pdf"
+ 
 const docs = [
   doc_1,
   doc_2,
@@ -18,8 +20,9 @@ const docs = [
   doc_7,
   doc_8,
   doc_9,
+  doc_10,
+  doc_11
 ].reverse();
-console.log(docs);
 
 const Documentli = (props) => {
   return (
@@ -36,7 +39,7 @@ const Documentacion = () => {
     <>
       <div
         className={
-          "flex flex-col items-center justify-center w-full h-screen text-[#f8f4e1] bg-center bg-cover"
+          "flex flex-col items-center justify-center w-full h-full text-[#f8f4e1] bg-center bg-cover overflow-y-scroll"
         }
       >
         <h1 className=" font-extrabold text-black m-4">Documentación</h1>
