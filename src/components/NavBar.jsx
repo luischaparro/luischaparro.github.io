@@ -51,8 +51,14 @@ const NavBar = () => {
         <Categorie
           categorie="Enlaces a documentación"
           text="Documentos generados por el Centro De Historia de Pinchote"
-          link='#/documentacion'
+          link="#/documentacion"
         />
+
+        <p className="flex items-center text-center" >
+          Pinchote - Santander <br />
+          Cel. 3213370563 - centrodehistoriadepinchote@gmail.com <br /> <br />
+
+        </p>
       </FooterVlog>
     </>
   );

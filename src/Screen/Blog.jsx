@@ -4,9 +4,7 @@ import { Container } from "../components/Container.jsx";
 import { Blogs } from "../components/Blogs.jsx";
 import { BlogsLoading } from "../components/BlogsLoading.jsx";
 
-
 const Blog = () => {
-
   const [loading, setLoading] = useState(true);
 
   const api = "https://chpapi.vercel.app/blog";
@@ -22,7 +20,8 @@ const Blog = () => {
       .then((res) => {
         // Cambiando el estado
         setData(res);
-        setLoading(false)
+        console.log(res);
+        setLoading(false);
       })
       .catch((err) => {
         console.log(err);
@@ -35,17 +34,17 @@ const Blog = () => {
       <Container>
         {loading && (
           <>
-            <BlogsLoading/>
-            <BlogsLoading/>
-            <BlogsLoading/>
+            <BlogsLoading />
+            <BlogsLoading />
+            <BlogsLoading />
           </>
         )}
-        {data.map((dato) => (
+        {data.map((el) => (
           <Blogs
-            imagen={`data:image/jpeg;base64,${dato.img}`}
-            titulo={dato.title}
-            fecha={dato.date}
-            contenido={dato.body}
+            imagen={`data:image/jpeg;base64,${el.img}`}
+            titulo={el.title}
+            fecha={el.date.slice(0,10)}
+            contenido={el.body}
           />
         ))}
       </Container>
