@@ -9,7 +9,7 @@ import doc_8 from "../Assets/PDF/8. ACTA 2 RENOVACION DIRECTIVOS Y ESTATUTOS DEF
 import doc_9 from "../Assets/PDF/9. ESTATUTOS ACTUALIZADOS.pdf";
 import doc_10 from "../Assets/PDF/10. CERT CAMARA COMERCIO EXISTENCIA Y REPRESENTACION LEGAL 17 de junio 2024.pdf"
 import doc_11 from "../Assets/PDF/11. FORMATO 52451002361684.pdf"
- 
+
 const docs = [
   doc_1,
   doc_2,
@@ -21,7 +21,7 @@ const docs = [
   doc_8,
   doc_9,
   doc_10,
-  doc_11
+  doc_11,
 ].reverse();
 
 const Documentli = (props) => {
@@ -34,20 +34,27 @@ const Documentli = (props) => {
   );
 };
 
+const nombreDocumento = (doc) => {
+  const nameDoc = doc.replaceAll("%20", " ").split(".")
+  const frg = nameDoc[3].split("-")
+  const result = frg[0]
+  return result
+}
+
 const Documentacion = () => {
   return (
     <>
       <div
         className={
-          "flex flex-col items-center justify-center w-full h-full text-[#f8f4e1] bg-center bg-cover overflow-y-scroll"
+          "flex flex-col items-center justify-center w-full h-[150vh] text-[#f8f4e1] bg-center bg-cover"
         }
       >
-        <h1 className=" font-extrabold text-black m-4">Documentación</h1>
+        <h1 className=" font-extrabold text-black">Documentación</h1>
         <ol className="list-decimal list-inside">
           {docs.map((doc) => {
             return (
               <Documentli
-                name={doc.replaceAll("%20", " ").slice(19, -4)}
+                name={nombreDocumento(doc)}
                 src={doc}
               />
             );
