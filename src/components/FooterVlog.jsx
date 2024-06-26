@@ -37,9 +37,13 @@ const FooterVlog = (props) => {
                 Sofco
               </a>
             </p>
-            
+
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a className="text-gray-500 cursor-pointer hover:text-sky-600">
+              <a
+                className="text-gray-500 cursor-pointer hover:text-sky-600"
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100084938956747&mibextid=ZbWKwL"
+              >
                 <svg
                   fill="currentColor"
                   className="w-5 h-5"
