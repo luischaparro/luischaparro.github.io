@@ -34,9 +34,10 @@ const FooterVlog = (props) => {
                 className="text-gray-600 ml-1"
                 target="_blank"
               >
-                F&L
+                Sofco
               </a>
             </p>
+            
             <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a className="text-gray-500 cursor-pointer hover:text-sky-600">
                 <svg
